@@ -1,74 +1,60 @@
-<h3>Welcome to the real-time HTML editor!</h3>
-<p>Type HTML in the text area above, and it will magically appear in the frame below.</p>
-
+<!DOCTYPE html>
 <html>
-<head>
-<style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-</head>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    </head>
 <body>
 
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+    <h1>Voracious Vikings NHanes Data</h1>
+    <p class="description"> We the Voracious Vikings used Google cloud, cloudycluster, python, HTML, and CSS to make graphs comparing different datasets from NHanes.</p>
+    <div class="cards">
+        <div class="card">
+            <img src="images/img_avatar.png" alt="Avatar" style="width:30%">
+            <h2>NHanes Blood Pressure Data</h2>
+            <p class="title">Blood pressure along different races</p>
+            <button class="button1" onclick=figure1()>View Bar Figure</button>
+            <button class="button1" onclick=figure2()>View Line Figure</button>
+        </div>
+        <div class="card">
+            <img src="images/img_avatar.png" alt="Avatar" style="width:30%">
+            <h2>NHanes Cholesterol Data</h2>
+            <p class="title">Blood pressure along different races</p>
+            <button class="button1" onclick=figure3()>View Bar Figure</button>
+            <button class="button1" onclick=figure4()>View Line Figure</button>
+        </div>
+        <div class="card">
+            <img src="images/img_avatar.png" alt="Avatar" style="width:30%">
+            <h2>NHanes Diabetes Data</h2>
+            <p class="title">Blood pressure along different races</p>
+            <button class="button1" onclick=figure5()>View Bar Figure</button>
+            <button class="button1" onclick=figure6()>View Line Figure</button>
+        </div>
 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <h3> this is a forest2 </h3>
-<a target="_blank" href="/static/figure1.png">
-    <img src="/static/figure1.png" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+    </div>
+    <div class="graphs">
+        
+    </div>
+    <script>
+        function figure1() {
+            $(".graphs").html("<img  style='position:absolute' src='https://storage.googleapis.com/nhanes/images/BPbar.png'>");
+        }
+        function  figure2() {
+            $(".graphs").html("<img  style='position:absolute' src='https://storage.googleapis.com/nhanes/images/BPline.png'>");
+        }
+        function  figure3() {
+            $(".graphs").html("<img  style='position:absolute' src='https://storage.googleapis.com/nhanes/images/CHOLbar.png'>");
+        }
+        function  figure4() {
+            $(".graphs").html("<img  style='position:absolute' src='https://storage.googleapis.com/nhanes/images/CHOLline.png'>");
+        }
+        function  figure5() {
+            $(".graphs").html("<img  style='position:absolute' src='https://storage.googleapis.com/nhanes/images/GLUbar.png'>");
+        }
+        function  figure6() {
+            $(".graphs").html("<img  style='position:absolute' src='https://storage.googleapis.com/nhanes/images/GLUline.png'>");
+        }
+    </script>
 </body>
 </html>
