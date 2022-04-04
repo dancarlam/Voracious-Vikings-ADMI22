@@ -10,6 +10,12 @@ Team - Elizabeth City State University
 
 Using HPC, we analyzed the Nhanes dataset and generated graphs that depicted how population health has changed over time for various races.
 
+## Technologies
+
+    Google cloud - Hosting flask app
+    Cloudy Cluster - submit jobs in parallel 
+    Python - Data ingestion, manipulation, visualization 
+    HTML/CSS
     
 ## Mentors
     Cole McKnight
