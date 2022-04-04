@@ -12,10 +12,12 @@ Using HPC, we analyzed the Nhanes dataset and generated graphs that depicted how
 
 ## Technologies
 
-    Google cloud     - Hosting flask app, store data
+    Google      - Hosting flask app,
     Cloudy Cluster   - Submit jobs in parallel 
     Python           - Data ingestion, manipulation, visualization 
     HTML/CSS         - Build frontend page, host figures 
+    Google Colab     - Used Jupyter Notebook to collaborate on code
+    Jupyter Notebook - 
     
 ## Mentors
     Cole McKnight
