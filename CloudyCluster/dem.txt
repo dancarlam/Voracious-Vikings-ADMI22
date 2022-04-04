@@ -1,0 +1,10 @@
+https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/DEMO.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2001-2002/DEMO_B.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2003-2004/DEMO_C.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2005-2006/DEMO_D.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2007-2008/DEMO_E.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2009-2010/DEMO_F.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/DEMO_G.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/DEMO_H.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/DEMO_I.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DEMO_J.XPT

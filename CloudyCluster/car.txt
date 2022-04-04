@@ -1,0 +1,10 @@
+https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/LAB13AM.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2001-2002/L13AM_B.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2003-2004/L13AM_C.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2005-2006/TRIGLY_D.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2007-2008/TRIGLY_E.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2009-2010/TRIGLY_F.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/TRIGLY_G.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/TRIGLY_H.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/TRIGLY_I.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/TRIGLY_J.XPT

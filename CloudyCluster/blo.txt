@@ -1,0 +1,10 @@
+https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/BPX.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2001-2002/BPX_B.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2003-2004/BPX_C.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2005-2006/BPX_D.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2007-2008/BPX_E.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2009-2010/BPX_F.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/BPX_G.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/BPX_H.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/BPX_I.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/BPX_J.XPT

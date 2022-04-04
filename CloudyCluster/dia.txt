@@ -1,0 +1,10 @@
+https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/LAB10AM.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2001-2002/L10AM_B.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2003-2004/L10AM_C.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2005-2006/GLU_D.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2007-2008/GLU_E.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2009-2010/GLU_F.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/GLU_G.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/GLU_H.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/GLU_I.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/GLU_J.XPT
