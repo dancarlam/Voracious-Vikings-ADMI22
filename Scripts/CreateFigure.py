@@ -54,7 +54,7 @@ def creategraph(data, x, y, hue='', yaxislabels='', gtype='', ptype=''):
       plt.figure(figsize = (15,8)) # Making the figure size bigger
       plt.tight_layout() # Formatting the graph object
       plt.show() # Displaying the graph
-      g.figure.savefig(f"/content/data2/images/{gtype + ptype}.png") # Saving the figure to a png format
+      g.figure.savefig(f"/content/data2/images/{gtype + ptype}.png", bbox_inches='tight') # Saving the figure to a png format
 
 
 # Description: This function is reading a .XPT file and converting into a dataframe 
