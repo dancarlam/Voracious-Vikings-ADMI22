@@ -6,7 +6,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <style>
             * {
-                background-color: gray
+                background-color:  	rgb(0, 87, 183);
             }
             
             .buttoncont {
@@ -20,19 +20,20 @@
                 border-color: 10px;
             }
             
-            .button1 {
-                padding: 5px;
-                border-radius: 5px;
-                border-color: rgb(92, 92, 92);
-                background-color: rgba(5, 5, 145, 0.651);
-                color:rgb(180, 180, 180);
-                font-family: myFirstFont;
-                src: url(sansation_light.woff);
-                text-align: center;
-            }
             .graphs {
+                padding: 15px;
+                border-radius: 10px;
                 display:flex;
                 justify-content: center;
+                flex-direction:column;
+                background-color: rgba(255, 217, 0, 0);
+            }
+
+            img {
+                padding: 15px;
+                border-radius: 50px;
+                background-color: rgba(255, 217, 0, 0);
+                width: 65%;
             }
             
             .card {
@@ -42,66 +43,107 @@
                 flex-direction: column;
                 align-items: center;
                 float: left;
-                background-color: rgb(92, 92, 92);
+                background-color: rgba(255, 217, 0, 0.692);
                 border-radius: 10px;
             }
             
             .cards {
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
             }
             
             h2 {
-                background-color: rgb(92, 92, 92);
+                background-color: rgba(255, 217, 0, 0);
+                color: black;
             }
             
             h1 {
                 text-align: center;
+                color: black;
             }
             
             .title {
-                background-color: rgb(92, 92, 92);
+                background-color: rgba(255, 217, 0, 0);
+                color: black;
             }
             
             .description {
                 text-align: center;
                 font-family: sans-serif;
+                color: black;
+            }
+
+            .bottom {
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 18px;
+                color: black;
+            }
+
+            .descriptcard {
+                word-wrap: break-word;
+                color: black;
+                font-size: 24px;
+                display: inline-flex;
+                padding: 15px;
+                text-align: center;
+                align-items: center;
+                background-color: rgba(255, 217, 0, 0);
+                max-width: 1000px;
+            }
+
+            .text {
+                background-color: rgba(255, 217, 0, 0);
+                padding: 15px;
             }
         </style>
     </head>
 <body>
 
     <h1>Voracious Vikings NHanes Data</h1>
-    <p class="description"> We the Voracious Vikings used Google cloud, cloudycluster, python, HTML, and CSS to make graphs comparing different datasets from NHanes.</p>
+    <p class="description"> We, the Voracious Vikings, used Google Cloud, CloudyCluster, Python, HTML, and CSS to generate graphs that compare different datasets from NHanes.</p>
     <div class="cards">
         <div class="card">
-            <img src="images/img_avatar.png" alt="Avatar" style="width:30%">
             <h2>NHanes Blood Pressure Data</h2>
-            <p class="title">Blood pressure along different races</p>
             <div class="graphs">
-                <img src="https://storage.googleapis.com/nhanes/images/BPbar.png">
-                <img src="https://storage.googleapis.com/nhanes/images/BPline.png">
+                <div class="descriptcard">
+                    <p class="text">This bar chart shows the blood pressure levels upon different races. Throughout the years the data fluctuates. Recently in 2017 the Non-Hispanic Black Race blood pressure average has been higher than any other race.</p>
+                    <img src="https://storage.googleapis.com/nhanes/images/BPbar.png">
+                </div>
+                <div class="descriptcard">
+                    <p class="text">This line chart allows us to grasp a better understanding of how the average blood pressure across the different ranges changed over the years. </p>
+                    <img src="https://storage.googleapis.com/nhanes/images/BPline.png">
+                </div>
             </div>
         </div>
         <div class="card">
-            <img src="images/img_avatar.png" alt="Avatar" style="width:30%">
             <h2>NHanes Cholesterol Data</h2>
-            <p class="title">Blood pressure along different races</p>
             <div class="graphs">
-                <img src="https://storage.googleapis.com/nhanes/images/CHOLbar.png">
-                <img src="https://storage.googleapis.com/nhanes/images/CHOLline.png">
+                <div class="descriptcard">
+                    <p class="text">This bar chart shows how the Non-Hispanic White Race in 1999 had a higher cholesterol average by miles. Over the past few years the cholesterol levels across all ages have dialed back alot and became more even.</p>
+                    <img src="https://storage.googleapis.com/nhanes/images/CHOLbar.png">
+                </div>
+                <div class="descriptcard">
+                    <p class="text">This line chart allows us to gather another perspective of how much the data fluctuates over the year</p>
+                    <img src="https://storage.googleapis.com/nhanes/images/CHOLline.png">
+                </div>
             </div>
         </div>
         <div class="card">
-            <img src="images/img_avatar.png" alt="Avatar" style="width:30%">
-            <h2>NHanes Diabetes Data</h2>
-            <p class="title">Blood pressure along different races</p>
+            <h2>NHanes Glucose Data</h2>
             <div class="graphs">
-                <img src="https://storage.googleapis.com/nhanes/images/GLUbar.png">
-                <img src="https://storage.googleapis.com/nhanes/images/GLUline.png">
+                <div class="descriptcard">
+                    <p class="text">The bar chart shows how in 1999 the averages of the different races are relatively the same. However after 2009 the averages began to fluctuate heavily. In the recent years Mexican American and Other Hispanic races have had higher Diabetes rate than the other races.</p>
+                    <img src="https://storage.googleapis.com/nhanes/images/GLUbar.png">
+                </div>
+                <div class="descriptcard">
+                    <p class="text">The line chart allows us to gather a better perspective of exactly how much the data fluctuates over the years.</p>
+                    <img src="https://storage.googleapis.com/nhanes/images/GLUline.png">
+                </div>
             </div>
         </div>
-
     </div>
+    <p class="bottom">Thank you to all of the mentors and special thanks to our mentors Cole McKnight and Robert Barrett. Thank you to all the supporting organizations! Thank you to HackHPC@ADMI22 for this amazing opportunity!</p>
 </body>
-</html>
+</html> 
