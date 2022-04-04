@@ -20,3 +20,7 @@ Using HPC, we analyzed the Nhanes dataset and generated graphs that depicted how
      Marquis Brown-Elahi
      Cameron Pendergrass
      Daniel Lamb
+
+# Thanks
+
+    Thank you to all of the mentors, organizers, institutions and companies for the amazing opportunity!
